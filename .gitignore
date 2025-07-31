@@ -57,17 +57,15 @@ data/processed/*.csv
 data/cache/*.json
 data/cache/*.csv
 
-# Output files (keep structure but not content)
-output/titan_reports/*.html
+# Output files (keep HTML dashboards, exclude raw data)
 output/titan_reports/*.json
-output/visualizations/*.html
-output/transaction_histories/*.html
+output/visualizations/*.json
 output/transaction_histories/*.csv
-output/reports/*.html
+output/transaction_histories/*.json
 output/reports/*.json
 
-# Keep the index.html as it's regenerated
-output/index.html
+# Note: HTML files are the actual dashboards and should be committed
+# They don't contain sensitive data, just visualizations
 
 # Logs
 *.log
