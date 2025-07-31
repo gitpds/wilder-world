@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Conda environments
+conda-meta/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+config/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (keep structure but not content)
+data/raw/*.json
+data/raw/*.csv
+data/processed/*.json
+data/processed/*.csv
+data/cache/*.json
+data/cache/*.csv
+
+# Output files (keep structure but not content)
+output/titan_reports/*.html
+output/titan_reports/*.json
+output/visualizations/*.html
+output/transaction_histories/*.html
+output/reports/*.html
+output/reports/*.json
+
+# Keep the index.html as it's regenerated
+output/index.html
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*
+
+# API Keys and secrets
+*.pem
+*.key
+secrets/
