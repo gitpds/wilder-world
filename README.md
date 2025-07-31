@@ -35,7 +35,7 @@ A comprehensive analytics platform for tracking WILD token holdings, analyzing O
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/gitpds/wilder-world.git
 cd wilder-world
 ```
 
